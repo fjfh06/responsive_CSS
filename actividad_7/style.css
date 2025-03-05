@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+}
+.contenedor div{
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+@media (max-width:768px) {
+ .contenedor{
+    display: block;
+ }
+ .contenedor div{
+    width: 10px;
+}
+}
