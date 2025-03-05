@@ -1,0 +1,16 @@
+ul{
+    list-style: none;
+    display: flex; 
+}
+li{
+    padding: 10px;
+}
+@media (max-width: 600px) {
+    ul{
+        list-style: none;
+        display: block;
+    }
+    li{
+        padding: 10px;
+    }
+}
