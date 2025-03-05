@@ -1,0 +1,17 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.contenedor div{
+    background-color: blue;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
